@@ -1,0 +1,23 @@
+
+State Machine - |vga_driver|vga_game_core:u_game|question_gate_idx
+Name question_gate_idx.00011 question_gate_idx.10000 question_gate_idx.01111 question_gate_idx.01110 question_gate_idx.01101 question_gate_idx.01011 question_gate_idx.01010 question_gate_idx.01001 question_gate_idx.01000 question_gate_idx.00111 question_gate_idx.00100 question_gate_idx.11111 
+question_gate_idx.11111 0 0 0 0 0 0 0 0 0 0 0 0 
+question_gate_idx.00100 0 0 0 0 0 0 0 0 0 0 1 1 
+question_gate_idx.00111 0 0 0 0 0 0 0 0 0 1 0 1 
+question_gate_idx.01000 0 0 0 0 0 0 0 0 1 0 0 1 
+question_gate_idx.01001 0 0 0 0 0 0 0 1 0 0 0 1 
+question_gate_idx.01010 0 0 0 0 0 0 1 0 0 0 0 1 
+question_gate_idx.01011 0 0 0 0 0 1 0 0 0 0 0 1 
+question_gate_idx.01101 0 0 0 0 1 0 0 0 0 0 0 1 
+question_gate_idx.01110 0 0 0 1 0 0 0 0 0 0 0 1 
+question_gate_idx.01111 0 0 1 0 0 0 0 0 0 0 0 1 
+question_gate_idx.10000 0 1 0 0 0 0 0 0 0 0 0 1 
+question_gate_idx.00011 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |vga_driver|vga_game_core:u_game|state
+Name state.STATE_GATE_SCREEN state.STATE_GAME state.STATE_RULES state.STATE_INTRO state.STATE_VICTORY 
+state.STATE_INTRO 0 0 0 0 0 
+state.STATE_RULES 0 0 1 1 0 
+state.STATE_GAME 0 1 0 1 0 
+state.STATE_GATE_SCREEN 1 0 0 1 0 
+state.STATE_VICTORY 0 0 0 1 1 
