@@ -1,17 +1,17 @@
-# The Professor's Hero 🏰🎓
+# The Professor's Hero 
 ### FPGA-Based Interactive Educational Game
 **Hacettepe University | Department of Electrical & Electronics Engineering** **ELE432 Advanced Digital Design (Spring 2026) Final Project**
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 **The Professor's Hero** is a fully standalone, hardware-driven educational puzzle game designed and synthesized entirely from scratch on the **Terasic DE1-SoC (Altera Cyclone V)** platform using **SystemVerilog**. 
 
 Inspired by Vladimir Tumanov’s educational book *"Saving the Queen"*, this project bridges abstract Boolean algebra and digital logic concepts with deterministic real-time hardware execution. The player navigates a 5x3 grid-based matrix (castle) to solve structural hardware-centric quizzes and bypass boolean gating paths in order to rescue a captured professor. The entire architecture runs natively on the FPGA fabric without any microprocessor or soft-core reliance, achieving **zero operational latency**.
 
 ---
 
-## 🛠️ Hardware & Peripheral Mapping
+## Hardware & Peripheral Mapping
 To ensure robust interaction and an error-free diagnostic testing environment, custom hardware label interfaces were designed for the DE1-SoC board layout:
 
 | Hardware Component | System Mapping | Functionality Description |
@@ -25,7 +25,7 @@ To ensure robust interaction and an error-free diagnostic testing environment, c
 
 ---
 
-## 🏗️ Architecture & Core Modules
+## Architecture & Core Modules
 The design is structurally modularized to enforce high concurrent processing efficiency across the FPGA fabric:
 
 ### 1. Master Control Unit (Finite State Machine - FSM)
@@ -50,7 +50,7 @@ To prevent heavy block RAM (M10K) memory inflation associated with massive stati
 
 ---
 
-## 🚀 Compilation & Synthesis Deployment
+## Compilation & Synthesis Deployment
 This project was compiled, verified, and synthesized using **Intel Quartus Prime (Lite Edition)**.
 
 ### Prerequisites
